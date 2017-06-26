@@ -1,0 +1,18 @@
+pøíkazem:
+flask run --reload --debugger
+
+
+
+pokud se prohlížeè zeptá na home adresu, tak adresa domovské stránky je  '/'
+
+tak odpoví s index.html podle templátu=šablony - napsáno v jazyce html se znaèkami s lomítky 
+
+templát má název záložky, nadpis a odkaz "Zaèít hru" po zmáèknutí - to se doplní v Pythonu
+
+pokud @app.route ...xxx pole - vykreslí se šablona poškvorky
+
+pole jsou odkazy na další stránky, tam je fce, kt to zpracuje, prvnì se umístí tah hráèe, pak zahraje pc
+pokud vyhodnocení == výhra, pøesmìruje hráèe na domovskou stránku nebo gratulující stránku
+pak hraje pc, pøípadnì se opìt pøesmìruje pøi jeho výhøe
+
+pokud remíza - ukáže se výsledné pole
